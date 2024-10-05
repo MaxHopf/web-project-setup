@@ -1,29 +1,28 @@
 # web-project-setup
 
-My default setup for initializing a new web project.
+A quick setup to initialize a new web project.
 
 ## Get Started
 
-1. Clone this repository, if not done jet.
-
+1. Clone this repository, if not already done.
 ```
-git clone {URL-of-the-repository}
+git clone https://github.com/MaxHopf/web-project-setup.git #!Change URL to new git repository 
 ```
 
-2. Install npm packages
+2. Switch to the projects directory.
+```
+cd web-project-setup #!Change directory to new project
+``` 
 
+3. Install npm packages
 ```
 npm install
 ```
 
-3. Run development environment with a server
+## Use...
 
-```
-npm run dev
-```
+... `npm run format` to lint and format the source code.
 
-4. Run production build
+... `npm run dev` to run a development environment.
 
-```
-npm run build
-```
+... `npm run build` to build a production bundle.
